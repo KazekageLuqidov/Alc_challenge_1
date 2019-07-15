@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:paddingBottom="16dp"
+    android:paddingTop="16dp"
+    android:paddingStart="16dp"
+    android:paddingEnd="16dp"
+    android:layout_height="match_parent"
+    tools:context="ng.com.secondwind.alc_challenge.MainActivity">
+
+    <TextView
+        android:id="@+id/welcome"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="60dp"
+        android:layout_marginTop="71dp"
+        android:text="@string/welcome_text"
+        android:textAlignment="center"
+        android:textColor="@color/darko"
+        android:textSize="30sp"
+        tools:fontFamily="@font/bevan" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:paddingTop="13dp"
+        android:paddingStart="54dp"
+        android:paddingEnd="54dp"
+        android:id="@+id/about"
+        android:text="@string/about_alc"
+        android:textColor="@color/darko"
+        android:background="#ffae19"
+        android:layout_marginStart="85dp"
+        android:layout_marginTop="91dp"
+        android:paddingBottom="13dp"
+        android:layout_height="wrap_content" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:paddingTop="13dp"
+        android:paddingStart="54dp"
+        android:paddingEnd="54dp"
+        android:id="@+id/profile"
+        android:text="@string/my_profile"
+        android:textColor="@color/darko"
+        android:background="#ffae19"
+        android:paddingBottom="13dp"
+        android:layout_marginTop="60dp"
+        android:layout_marginStart="85dp"
+        android:layout_height="wrap_content" />
+
+
+</LinearLayout>
